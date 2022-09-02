@@ -6,8 +6,6 @@ Simple standalone image for Hawtio web console (https://hawt.io)
 
 Dockerfile to build a standalone image for [Hawtio](https://hawt.io) web console.
 
-Source code [here](https://github.com/zionio/docker-hawtio)
-
 ## Installation
 
 Automated builds are available on [Dockerhub](https://hub.docker.com/r/znio/hawtio).
@@ -25,7 +23,7 @@ docker pull znio/hawtio:latest
 You can build your own image locally with docker `--build-arg` and specific `release` (default == `latest`)
 
 ```bash
-docker build --build-arg RELEASE=2.15.1 -t hawtio:2.15.1 github.com/zionio/docker-hawtio
+docker build --build-arg RELEASE=2.15.1 -t hawtio:2.15.1 github.com/zionio/docker-hawtio#main
 ```
 
 ## Quick Start
