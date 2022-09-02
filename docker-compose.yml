@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  hawtio:
+    container_name: hawtio
+    image: znio/hawtio:latest
+    ports:
+      - '8080:8080'
+    environment:
+      - HAWTIO_JAVA_OPTS=
+          -Dhawtio.proxyDisableCertificateValidation=true
+          -Dhawtio.authenticationEnabled=false
