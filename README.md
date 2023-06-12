@@ -2,6 +2,8 @@
 
 ![GitHub](https://img.shields.io/github/license/zionio/docker-hawtio)
 
+**=== NO longer maintained ===**
+
 Simple standalone image for Hawtio web console (https://hawt.io)
 
 ## Introduction
